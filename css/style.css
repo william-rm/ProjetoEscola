@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tabela{
+    line-height: 30px;
+    font-size: 18px;
+}
+
+#rodape{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+#rodape p{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.menu{
+    padding: 5px;
+    width: 100%;
+    background-color: rgb(186, 230, 233);
+    margin: 30px auto;
+    text-align: center;
+}
+
+.menu a{
+    padding-right: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin: 0 10px;
+    border-right: 3px solid white;
+}
+
+.tabela > table > th{
+    font-size: 20px;
+}
+
+td{
+    font-size: 18px;
+    text-align: center;
+}

@@ -3,21 +3,50 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Titulo aqui</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
+
+    <style>
+        h1{
+            color:rgb(29, 76, 80);
+            padding: 20px;
+            margin-left: 10px;
+        }
+
+        img{
+            margin-left: 10px;
+        }
+        h2{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+            text-align: center;
+            margin-top: 20px;
+
+        }
+
+    </style>
     
+    <div class="menu">
+        <a href="">Home</a>
+        <a href="">Inscrição</a>
+        <a href="">Sobre</a>
+        <a href="">Duvidas</a>
+    </div>
      <!--tags de texto-->
      <div>
         <h1>SEP - Serviço Escolar Profissionalizante</h1>
-        <p></p>
     </div>
         <div>
          <!--Colocar imagem no site-->
-        <img src="imagens/cursos.png"/>
+        <img src="imagens/cursos.png" width="100%" height="80%"/>
         </div>
+
+        <h2>Cursos disponíveis</h2>
+
     <!--Tabelas-->
-    <div>
-    <table>
+    <div class="tabela">
+    <table width="100%">
         <thead>
             <tr>
                 <th>Administração</th>
@@ -29,16 +58,17 @@
         </thead><br/>
         <tbody>
             <tr>
-                <th>Duração: 1 ano <br/> Turno: Noturno</th>
-                <th>Duração: 1 ano <br/> Turno: Noturno</th>
-                <th>Duração: 1 ano <br/> Turno: Noturno</th>
-                <th>Duração: 1 ano <br/> Turno: Noturno</th>
-                <th>Duração: 1 ano <br/> Turno: Noturno</th>
+                <td>Duração: 1 ano
+                <br/>Turno: Noturno</td>
+                <td>Duração: 1 ano <br/>Turno: Noturno</td>
+                <td>Duração: 1 ano <br/>Turno: Noturno</td>
+                <td>Duração: 1 ano <br/>Turno: Noturno</td>
+                <td>Duração: 1 ano <br/>Turno: Noturno</td>
             </tr>
         </tbody>
     </table>
     </div>
-    <div>
+    <div id="rodape">
         <footer>
             <hr />
             <p>Contato: william.rm0410@gmail.com</p>
