@@ -6,6 +6,16 @@
 .tabela{
     line-height: 30px;
     font-size: 18px;
+    padding: 3px 3px 5px 3px;
+}
+
+.tabela > table > th{
+    font-size: 20px;
+}
+
+td{
+    font-size: 18px;
+    text-align: center;
 }
 
 #rodape{
@@ -38,11 +48,3 @@
     border-right: 3px solid white;
 }
 
-.tabela > table > th{
-    font-size: 20px;
-}
-
-td{
-    font-size: 18px;
-    text-align: center;
-}
