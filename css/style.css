@@ -9,6 +9,10 @@
     padding: 3px 3px 5px 3px;
 }
 
+.imagem{
+    margin-right: 20px;
+}
+
 th{
     font-size: 20px;
 }
@@ -16,6 +20,10 @@ th{
 td{
     font-size: 18px;
     text-align: center;
+}
+
+.thead{
+    margin-left: 10px;
 }
 
 #rodape{
