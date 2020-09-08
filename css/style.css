@@ -3,13 +3,13 @@
     padding: 0;
 }
 
-.tabela{
+.tabelas {
     line-height: 30px;
     font-size: 18px;
     padding: 3px 3px 5px 3px;
 }
 
-.tabela > table > th{
+th{
     font-size: 20px;
 }
 
