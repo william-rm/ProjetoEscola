@@ -3,27 +3,33 @@
     padding: 0;
 }
 
-.tabelas {
+.adm, .designer, .tecnologia, .moda, .rh{
+    background-color: #ccc;
+    border-radius: 5px;
+    display:inline-block;
+    padding: 5px;
+    margin: 60px 7px 30px 6px;
+    width: 18%;
+}
+
+.cursos h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.cursos p{
+    text-align: center;
+}
+
+
+
+.cursos {
     line-height: 30px;
-    font-size: 18px;
     padding: 3px 3px 5px 3px;
 }
 
 .imagem{
     margin-right: 20px;
-}
-
-th{
-    font-size: 20px;
-}
-
-td{
-    font-size: 18px;
-    text-align: center;
-}
-
-.thead{
-    margin-left: 10px;
 }
 
 #rodape{
@@ -42,7 +48,7 @@ td{
 .menu{
     padding: 5px;
     width: 100%;
-    background-color: rgb(186, 230, 233);
+    background-color: #ccc;
     margin: 30px auto;
     text-align: center;
 }
