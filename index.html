@@ -1,88 +1,135 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8"/>
-    <title>Projeto Escola</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
-</head>
-<body>
-
-    <style>
-        h1{
-            color:rgb(29, 76, 80);
-            padding: 20px;
-            margin-left: 10px;
-        }
-
-        img{
-            height: 400px;
-            margin-left: 10px;
-            border-radius: 7px;
-        }
-        h2{
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 30px;
-            text-align: center;
-            margin-top: 50px;
-
-        }
-
-        body{
-            background-color: #F0F8FF;
-        }
-
-    </style>
+    <title>Projeto Escola</title>
+  </head>
+  <body>
+    <div class="container">
+        <style>
+            h1{
+                color:rgb(29, 76, 80);
+                padding: 20px;
+                margin-left: 10px;
+            }
     
-    <div class="menu">
-        <a href="">Home</a>
-        <a href="">Cursos</a>
-        <a href="">Inscrição</a>
-        <a href="">Duvidas</a>
-    </div>
-     <!--tags de texto-->
-     <div>
-        <h1>SEP - Serviço Escolar Profissionalizante</h1>
-    </div>
-        <div class="imagem">
-         <!--Colocar imagem no site-->
-        <img src="imagens/cursos.png" width="100%" />
-        </div>
-
-    <!--Tabelas-->
-    <h2>Cursos disponíveis</h2>
-    <div class="cursos">
+            img{
+                height: 400px;
+                margin-left: 10px;
+                border-radius: 7px;
+            }
+            h2{
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 30px;
+                text-align: center;
+                margin-top: 50px;
+    
+            }
+    
+            body{
+                background-color: #F0F8FF;
+            }
+    
+        </style>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="">Home</a>
+            <a class="navbar-brand" href="">Cursos</a>
+            <a class="navbar-brand" href="">Sobre nós</a>
+            <a class="navbar-brand" href="">Contato</a>
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </nav>
+         <!--tags de texto-->
+         <div class="container p-20 ml-10"></div>
+            <h1>SEP - Serviço Escolar Profissionalizante</h1>
+          </div>
         
-        <div class="adm">
-            <h3>Administração</h3>
-            <p>Duração: 1 ano</p>
-            <p>Turno: Noturno</p>
+        <div id="teste" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#teste" data-slide-to="0" class="active"></li>
+              <li data-target="#teste" data-slide-to="1"></li>
+              <li data-target="#teste" data-slide-to="2"></li>
+            </ul>
+          
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagens/cursos.png" width="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/cursos2.jpg" width="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/cursos3.jpg" width="100%">
+              </div>
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#teste" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#teste" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          
+          </div>
+    
+        <!--Tabelas-->
+        <h2>Cursos disponíveis</h2>
+        <div class="cursos">
+        
+            <div class="adm">
+                <h3>Administração</h3>
+                <p>Duração: 1 ano</p>
+                <p>Turno: Noturno</p>
+              
+            </div>
+            <div class="designer">
+                <h3>Designer</h3>
+                <p>Duração: 1 ano</p>
+                <p>Turno: Noturno</p>
+                
+            </div>
+            <div class="tecnologia">
+                <h3>Tecnologia</h3>
+                <p>Duração: 1 ano</p>
+                <p>Turno: Noturno</p>
+               
+            </div>
+            <div class="moda">
+                <h3>Moda</h3>
+                <p>Duração: 1 ano</p>
+                <p>Turno: Noturno</p>
+                
+            </div>
+            <div class="rh">
+                <h3>RH</h3>
+                <p>Duração: 1 ano</p>
+                <p>Turno: Noturno</p>
+            </div>
         </div>
-        <div class="designer">
-            <h3>Designer</h3>
-            <p>Duração: 1 ano</p>
-            <p>Turno: Noturno</p>
+        <div id="rodape">
+            <footer>
+                <hr/>
+                <p class="text-center p-3">Contato: william.rm0410@gmail.com</p>
+            </footer>
         </div>
-        <div class="tecnologia">
-            <h3>Tecnologia</h3>
-            <p>Duração: 1 ano</p>
-            <p>Turno: Noturno</p>
-        </div>
-        <div class="moda">
-            <h3>Moda</h3>
-            <p>Duração: 1 ano</p>
-            <p>Turno: Noturno</p>
-        </div>
-        <div class="rh">
-            <h3>RH</h3>
-            <p>Duração: 1 ano</p>
-            <p>Turno: Noturno</p>
-        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
     </div>
-    <div id="rodape">
-        <footer>
-            <hr />
-            <p>Contato: william.rm0410@gmail.com</p>
-        </footer>
-    </div>
-</body>
+  </body>
 </html>
